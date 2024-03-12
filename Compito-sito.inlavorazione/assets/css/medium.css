@@ -35,6 +35,11 @@ nav ul {
 nav li {
   margin-left: 40px;
 }
+nav li button {
+  border: 1px solid gray;
+  border-radius: 25px;
+  padding: 5px 10px;
+}
 nav li:hover {
   cursor: pointer;
 }
@@ -316,6 +321,7 @@ aside {
   height: 15px;
   align-items: center;
 }
+
 .Reco {
   text-align: center;
   color: black;
@@ -326,5 +332,75 @@ aside {
 .tofollow {
   text-align: left;
   color: black;
-  padding: 35px;
+  margin-top: 45px;
+}
+.profiloprimo {
+  border-radius: 250px;
+}
+.primofollow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.seguaci {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.grassetto {
+  font-weight: bold;
+}
+.spazio {
+  margin-left: 10px;
+  line-height: 5px;
+}
+.bottoni {
+  gap: 20px;
+  border: none;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.bottoni button {
+  border: none;
+  background-color: rgb(238, 236, 236);
+  padding: 10px 15px;
+  border-radius: 25px;
+}
+.recently {
+  text-align: left;
+}
+.recently img {
+  border-radius: 10px;
+  width: 80%;
+}
+.Eva {
+  display: flex;
+  align-items: center;
+}
+.Eva div p {
+  margin-left: 8px;
+}
+.fey {
+  text-align: start;
+  font-weight: bold;
+}
+.hy {
+  text-align: start;
+  font-weight: bold;
+}
+.hy p {
+  text-align: start;
+}
+.Help {
+  color: gray;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.Help p {
+  margin-right: 15px;
+}
+.data {
+  color: gray;
 }
